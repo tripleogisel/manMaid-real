@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	box-sizing: border-box;	
+	box-sizing: border-box;
 	margin: 0;
 	width: 100%;
 }
@@ -22,9 +22,47 @@ h1 {
 body > div > section.contact > h1 {
 	background-color: #0e3a5e;
 	margin-bottom: 0px;
-	padding: 8rem 2rem 2rem;
+	padding: 2rem;
 	color: #f4ea05;
 }
+
+.schedule {
+	margin: 2rem;
+}
+
+.scheduleDay {
+	width: 100%;
+	background-color: #eee;
+	height: 80px;
+}
+
+.scheduleSlotBooked {
+	background-color: #333;
+	height: 5rem;
+	text-align: center;
+	padding: 2rem;
+	color: white;
+	vertical-align: middle;
+	line-height: 5rem;
+}
+
+.scheduleSlot {
+	height: 5rem;
+	text-align: center;
+	padding: 2rem;
+	color: white;
+	vertical-align: middle;
+	line-height: 5rem;
+}
+
+.booked {
+	background-color: #333;
+}
+
+.free {
+		background-color: green;
+	}
+
 /*wrapper style*/
 
 .site {
@@ -101,6 +139,18 @@ img.logo {
 	padding: 2rem;
 }
 
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.label {
+	margin: 3rem 0 1rem 0;
+}
+
 
 
 /*contact area styles*/
@@ -129,7 +179,7 @@ img.logo {
 	border-radius: 100px;
 	height: 8rem;
 	width: 8rem;
-	box-shadow: 0px;
+	box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.14);
 	border: 0px;
 
 	line-height: 20px;
@@ -149,7 +199,7 @@ img.logo {
 .field {
 	display: block;
 	text-align: center;
-	margin: 4rem auto;
+	margin: 1rem auto 4rem;
 	width: 100%;
 	border: 3px solid #0e3a5e;
 	/*color: white;*/
@@ -186,13 +236,13 @@ input:focus {
 	background-color: #0e3a5e;
 }
 
- 
+
 @media (max-width: 480px){
 
 
 img.logo {
-	max-width: 40%;
-	margin: 15rem 5rem 2rem;
+	max-width: 80%;
+	margin: 10rem 0rem 4rem;
 }
 
 .site {
@@ -210,7 +260,7 @@ img.logo {
 
 /*	bottom: 0px;
 	width: 100%;
-	height: 5rem; 
+	height: 5rem;
 	background-color: #a81f2a;
 	color: white;
 	top: initial;
@@ -234,15 +284,14 @@ img.logo {
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: black;  
+   color: black;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: black;  
+   color: black;
 }
 
-:-ms-input-placeholder {  
-   color: black;  
+:-ms-input-placeholder {
+   color: black;
 }
 /*
-
